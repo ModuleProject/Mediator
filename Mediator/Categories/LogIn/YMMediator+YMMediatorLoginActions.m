@@ -10,7 +10,7 @@
 
 NSString *const kMediatorTargetLogin = @"Login";
 
-NSString *const kMediatorActionNativeFetchLoginVC = @"nativeFetchLoginVC";
+NSString *const kMediatorActionNativeFetchLoginVC = @"FetchViewControllerLogin";
 
 @implementation YMMediator (YMMediatorLoginActions)
 
