@@ -29,12 +29,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+s.source_files = 'Mediator/*.{m,h}'
 
 s.subspec 'Categories' do |categories|
 categories.source_files = 'Mediator/Categories/**/*.{h,m}'
 categories.public_header_files = 'Mediator/Categories/**/*.h'
 end
-s.source_files = 'Mediator/**/*.{m,h}'
 
 
   # s.resource_bundles = {
