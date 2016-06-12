@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		0BC1FA6C0F625CEB0FC454145616D0D1 /* Mediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0710D1634E2C16D969CD9774194ABB0 /* Mediator-dummy.m */; };
 		94A8C1D6D8631F643E6E5E593E081259 /* Pods-Mediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8DAF1122B425C2CF76F60AE88ACB44 /* Pods-Mediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999D39991D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D39951D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.h */; };
+		999D399A1D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D39961D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.m */; };
+		999D399B1D0D124B00C950C6 /* YMMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D39971D0D124B00C950C6 /* YMMediator.h */; };
+		999D399C1D0D124B00C950C6 /* YMMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D39981D0D124B00C950C6 /* YMMediator.m */; };
 		B976BE4F7B75B2677D40FC784FB5C3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		BD7A54B8DF156F4007C140840D1C22DF /* Pods-Mediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E9760008EF1D8C0D56294B4644DF1A /* Pods-Mediator_Tests-dummy.m */; };
-		C6112D151F9DA375CB7469011A883F7D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE46181559265FF944DC1CE311E3612 /* ReplaceMe.m */; };
 		CC0628F33843C3CEC6B68B5208ABE965 /* Mediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E220979491CA3EE4F001BBF876A9A9 /* Mediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9C7B642582E542F792966B5627DFFDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		0D6A507103C5E5C8FE09495FCECE2281 /* Pods-Mediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0DE46181559265FF944DC1CE311E3612 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		308E4753D764258143958BE604F6A0EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE2CBBE60357526D54CA950E5F275A3 /* Pods-Mediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49CBBFF9AB22B0AFAFCF0DB6A9241467 /* Pods_Mediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +41,10 @@
 		8D4C81B1DF51DDDE07B5EC621F7F444A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		961280CB3128CBD82B7B990B827ECD36 /* Mediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator-prefix.pch"; sourceTree = "<group>"; };
+		999D39951D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMMediator+YMMediatorLoginActions.h"; sourceTree = "<group>"; };
+		999D39961D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YMMediator+YMMediatorLoginActions.m"; sourceTree = "<group>"; };
+		999D39971D0D124B00C950C6 /* YMMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMMediator.h; sourceTree = "<group>"; };
+		999D39981D0D124B00C950C6 /* YMMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMediator.m; sourceTree = "<group>"; };
 		A0710D1634E2C16D969CD9774194ABB0 /* Mediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mediator-dummy.m"; sourceTree = "<group>"; };
 		ABBF949C33AF90406DC11B5620B13641 /* Mediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mediator.xcconfig; sourceTree = "<group>"; };
 		BD2DD408D9B46A405F3989ED498AF3D9 /* Pods-Mediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -99,7 +105,9 @@
 		52D8D44EB434BB964F4ADEA2DE2EABE0 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
-				C124E1E1589501AF178FA0F3402EFABB /* Classes */,
+				999D39931D0D124B00C950C6 /* Categories */,
+				999D39971D0D124B00C950C6 /* YMMediator.h */,
+				999D39981D0D124B00C950C6 /* YMMediator.m */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -142,6 +150,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		999D39931D0D124B00C950C6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				999D39941D0D124B00C950C6 /* LogIn */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		999D39941D0D124B00C950C6 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				999D39951D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.h */,
+				999D39961D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.m */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 		A3EB325F8DE723126F6A5651FDB73BA6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,14 +181,6 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C124E1E1589501AF178FA0F3402EFABB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0DE46181559265FF944DC1CE311E3612 /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		EC5E964B9549A4A3D15DC8D78DA27481 /* Support Files */ = {
@@ -187,6 +204,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999D399B1D0D124B00C950C6 /* YMMediator.h in Headers */,
+				999D39991D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.h in Headers */,
 				CC0628F33843C3CEC6B68B5208ABE965 /* Mediator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC1FA6C0F625CEB0FC454145616D0D1 /* Mediator-dummy.m in Sources */,
-				C6112D151F9DA375CB7469011A883F7D /* ReplaceMe.m in Sources */,
+				999D399A1D0D124B00C950C6 /* YMMediator+YMMediatorLoginActions.m in Sources */,
+				999D399C1D0D124B00C950C6 /* YMMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

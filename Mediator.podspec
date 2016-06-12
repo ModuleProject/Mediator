@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mediator'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Mediator.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Mediator/Classes/**/*'
-  
+s.source_files = 'Mediator/*.{m,h}'
+
+s.subspec 'YMMediatorCategories' do |ymCategories|
+ymCategories = 'Categories/**/*.{h,m}'
+end
+
+
   # s.resource_bundles = {
   #   'Mediator' => ['Mediator/Assets/*.png']
   # }
