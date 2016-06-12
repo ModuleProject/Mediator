@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 s.source_files = 'Mediator/*.{m,h}'
 
 s.subspec 'YMMediatorCategories' do |ymCategories|
-ymCategories = 'Categories/**/*.{h,m}'
+ymCategories.source_files = 'Categories/**/*.{h,m}'
 end
 
 
