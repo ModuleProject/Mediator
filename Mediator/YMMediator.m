@@ -65,8 +65,8 @@
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params
 {
     
-    NSString *targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
-    NSString *actionString = [NSString stringWithFormat:@"Action_%@:", actionName];
+    NSString *targetClassString = [NSString stringWithFormat:@"Target%@", targetName];
+    NSString *actionString = [NSString stringWithFormat:@"Action%@:", actionName];
     
     Class targetClass = NSClassFromString(targetClassString);
     id target = [[targetClass alloc] init];

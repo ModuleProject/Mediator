@@ -14,7 +14,7 @@ NSString *const kMediatorActionNativeFetchLoginVC = @"nativeFetchLoginVC";
 
 @implementation YMMediator (YMMediatorLoginActions)
 
-- (UIViewController *)Mediator_viewControllerForLogin{
+- (UIViewController *)MediatorViewControllerForLogin{
     UIViewController *vc = [self performTarget:kMediatorTargetLogin
                                         action:kMediatorActionNativeFetchLoginVC
                                         params:nil];
