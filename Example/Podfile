@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Mediator_Tests' do
+  pod 'Mediator', :path => '../'
+  
+  
+end
