@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'Mediator/*.{m,h}'
+s.source_files = 'Mediator/**/*.{m,h}'
 
 s.subspec 'YMMediatorCategories' do |ymCategories|
 ymCategories.source_files = 'Categories/**/*.{h,m}'
