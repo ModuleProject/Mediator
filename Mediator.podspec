@@ -33,6 +33,7 @@ s.source_files = 'Mediator/*.{m,h}'
 
 s.subspec 'YMMediatorCategories' do |ymCategories|
 ymCategories.source_files = 'Categories/**/*.{h,m}'
+ymCategories.public_header_files = 'Categories/**/*.h'
 end
 
 
